@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/garbit/lottie-web-vue#readme",
   "dependencies": {
-    "lottie-web": "^5.7.4"
+    "lottie-web": "^5.9.2"
   },
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
