@@ -57,6 +57,26 @@ export default {
     pause() {
       if(this.anim)
         this.anim.pause()
+    },
+    setSpeed (speed) {
+      if (this.anim)
+        this.anim.setSpeed(speed)
+    },
+    setDirection (direction) {
+      if (this.anim)
+        this.anim.setDirection(direction)
+    },
+    getDuration (inFrames) {
+      if (this.anim)
+        return this.anim.getDuration(inFrames)
+    },
+    goToAndStop(position, isFrame) {
+      if (this.anim && position)
+        this.anim.goToAndStop(position, isFrame)
+    },
+    goToAndPlay(position, isFrame) {
+      if (this.anim)
+        this.anim.goToAndPlay(position, isFrame)
     }
   }
 }
