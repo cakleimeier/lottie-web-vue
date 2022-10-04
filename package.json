@@ -14,7 +14,7 @@
     "build:es": "rollup --config build/rollup.config.js --format es --file dist/lottie-web-vue.esm.js",
     "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/lottie-web-vue.min.js",
     "test": "echo \"No test specified\"",
-    "prepare": "npm install && npm run build"
+    "prepare": "npm install & npm run build"
   },
   "repository": {
     "type": "git",
